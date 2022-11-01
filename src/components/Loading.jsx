@@ -1,8 +1,11 @@
 import React from 'react'
 
+
 const Loading = () => {
   return (
-    <div>🕖Loading...</div>
+    <div>
+      <img className='loading' src="/img/30.gif" alt="" />
+    </div>
   )
 }
 
